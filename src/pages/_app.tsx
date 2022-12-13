@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import { SplashLoading } from '../components/splash'
+import { SplashLoading } from '../components/splashLoading'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
