@@ -24,7 +24,9 @@ export const SplashLoading = (): JSX.Element | false => {
     }
   });
 
-  return loading && (<div className='wrapper'>
-    <p>Esse eh o loader</p>
+  return loading && (<div className='container'>
+    <div className='flex justify-center content-center'>
+
+    </div>
   </div>)
 }
